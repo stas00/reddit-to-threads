@@ -1,5 +1,7 @@
 # Zst Blocks format
 
+For the latest version see: https://github.com/ArthurHeitmann/zst_blocks_format - I have just included this repo verbatim for convenience, rather than going the submodule way. If for some reason this copy gets outdated - replace it with the up-to-date version of it.
+
 The zst blocks format is a simple format for storing rows of data in a compressed format. Compression is done using zstandard (zstd).
 
 ## If you're just interested in using the CLI or the python scripts, see [here](./python_cli/).

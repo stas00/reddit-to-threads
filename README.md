@@ -15,7 +15,7 @@ Once the dumps have been downloaded - they are in `.zst` format - one needs to e
 
 I found the easiest quick and dirty way to accomplish this was to feed a pair of each dump files into an sqlite database per sub, and in another script extract each thread's submission and corresponding comments, rebuild the graph and parse the tree to flatten it into the desired per thread document.
 
-This is far from being the most efficient tooling, but more of a quick solution to handle a few threads. There is no intention of turning this repo into something more than what it is, so the code is provided as is.
+This is far from being the most efficient tooling, but more of a quick solution to handle a few Reddit subs. There is no intention of turning this repo into something more than what it is, so the code is provided as is.
 
 
 
