@@ -103,9 +103,6 @@ for f in files:
     else:
         create_comments_table(db_name)
 
-    # path_out = path.replace("zst", "jsonl")
-    # assert path != path_out, f"broke the assumption of input file's ext to be .zst {path=} {path_out=}"
-
     if jsonStream is None:
         print(f"Skipping unknown file {f}")
         continue
@@ -120,8 +117,6 @@ for f in files:
         else:
             insert_comment(db_name, get_comment(row))
 
-        # json.dump(row, fh, sort_keys=True, ensure_ascii=False)
-        # fh.write("\n")
     print(f"\rRow {i+1}")
 
 print("Done")

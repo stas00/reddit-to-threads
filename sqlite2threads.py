@@ -107,9 +107,6 @@ def get_comments_flattened(conn, link_id):
     return comments_flat
 
 
-# test with
-# https://www.reddit.com/r/investingforbeginners/comments/h9ckeh/stock_simulator/
-
 db_names = sys.argv[1:]
 
 for db_name in db_names:
@@ -146,8 +143,6 @@ for db_name in db_names:
 
         json.dump(dict(text=data_flat), fh, sort_keys=True, ensure_ascii=False)
         fh.write("\n")
-
-        # sys.exit()
 
     print(f"\rRow {c}")
 

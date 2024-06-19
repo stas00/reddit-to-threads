@@ -100,38 +100,3 @@ for f in files:
         print(f"\rRow {c}")
 
 print("Done")
-
-
-# print(json.dumps(e, indent=1))
-# print(e)
-# sys.exit()
-
-
-"""
-
-*** submissions:
-data = [submission.title, submission.selftext, ""]
-
-id
-title
-selftext
-num_comments
-score
-created_utc
-
-id, title, selftext, num_comments, score, created_utc
-
-*** comments:
-
-id
-link_id
-parent_id
-body
-score
-created_utc
-
-id, link_id, parent_id, body, score, created_utc
-
-parent_id == link_id if it's the immediate tree starter
-
-"""
